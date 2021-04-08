@@ -1,0 +1,64 @@
+body {
+  background-color: #202020;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #00ff99;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: #00ff99;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+}
+
+.first-player {
+  position: absolute;
+  left: 350px;
+}
+
+.second-player {
+  position: absolute;
+  right: 350px;
+}
+
+.bottom-section {
+  color: #eaf6f6;
+  position: relative;
+  top: 450px;
+}
+
+.btn {
+  background: #fa0808;
+  background-image: -webkit-linear-gradient(top, #fa0808, #610e0e);
+  background-image: -moz-linear-gradient(top, #fa0808, #610e0e);
+  background-image: -ms-linear-gradient(top, #fa0808, #610e0e);
+  background-image: -o-linear-gradient(top, #fa0808, #610e0e);
+  background-image: linear-gradient(to bottom, #fa0808, #610e0e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: cursive;
+  color: #00ff99;
+  font-size: 28px;
+  padding: 10px 20px 10px 20px;
+  position: relative;
+  top: 400px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #e80927;
+  background-image: -webkit-linear-gradient(top, #e80927, #62ded2);
+  background-image: -moz-linear-gradient(top, #e80927, #62ded2);
+  background-image: -ms-linear-gradient(top, #e80927, #62ded2);
+  background-image: -o-linear-gradient(top, #e80927, #62ded2);
+  background-image: linear-gradient(to bottom, #e80927, #62ded2);
+  color: #ffffff;
+  text-decoration: none;
+}
